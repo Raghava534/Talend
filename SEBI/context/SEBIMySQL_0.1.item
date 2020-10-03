@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_HBTrMAPhEeuj357OrNJiiA">
+    <contextParameter comment="" name="SEBIMySQL_Port" prompt="SEBIMySQL_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HBU5UAPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Database" prompt="SEBIMySQL_Database?" promptNeeded="false" type="id_String" value="sebi" xmi:id="_HBU5UQPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Server" prompt="SEBIMySQL_Server?" promptNeeded="false" type="id_String" value="192.168.1.122" xmi:id="_HBU5UgPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:bMtzwwFeCkXULGyuJ6SvZQi4NtTTruze9C+6xr7oJ2X6kRGi4A==" xmi:id="_HBU5UwPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Login" prompt="SEBIMySQL_Login?" promptNeeded="false" type="id_String" value="dif" xmi:id="_HBU5VAPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_AdditionalParams" prompt="SEBIMySQL_AdditionalParams?" promptNeeded="false" type="id_String" value="serverTimezone=UTC" xmi:id="_HBU5VQPhEeuj357OrNJiiA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_HBU5VgPhEeuj357OrNJiiA">
+    <contextParameter comment="" name="SEBIMySQL_Port" prompt="SEBIMySQL_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HBU5VwPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Database" prompt="SEBIMySQL_Database?" promptNeeded="false" type="id_String" value="sebi" xmi:id="_HBU5WAPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Server" prompt="SEBIMySQL_Server?" promptNeeded="false" type="id_String" value="192.168.1.122" xmi:id="_HBU5WQPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:UVHZRAgCUTDm+YFnhsCM9JyeZUawH3GYqoORRMmL9315JSae8Q==" xmi:id="_HBU5WgPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Login" prompt="SEBIMySQL_Login?" promptNeeded="false" type="id_String" value="dif" xmi:id="_HBU5WwPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_AdditionalParams" prompt="SEBIMySQL_AdditionalParams?" promptNeeded="false" type="id_String" value="serverTimezone=UTC" xmi:id="_HBU5XAPhEeuj357OrNJiiA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_HBU5XQPhEeuj357OrNJiiA">
+    <contextParameter comment="" name="SEBIMySQL_Port" prompt="SEBIMySQL_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_HBU5XgPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Database" prompt="SEBIMySQL_Database?" promptNeeded="false" type="id_String" value="sebi" xmi:id="_HBU5XwPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Server" prompt="SEBIMySQL_Server?" promptNeeded="false" type="id_String" value="192.168.1.122" xmi:id="_HBU5YAPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:1py5zzL77kRCGAJQB6gMuBXjXXEzBYrjHht0qrND77DT/W5pbQ==" xmi:id="_HBU5YQPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_Login" prompt="SEBIMySQL_Login?" promptNeeded="false" type="id_String" value="dif" xmi:id="_HBU5YgPhEeuj357OrNJiiA"/>
+    <contextParameter comment="" name="SEBIMySQL_AdditionalParams" prompt="SEBIMySQL_AdditionalParams?" promptNeeded="false" type="id_String" value="serverTimezone=UTC" xmi:id="_HBU5YwPhEeuj357OrNJiiA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_eaf692fe-11cb-4506-ae7a-6e86d082e88b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0Y7MPkdIg6JpNbgL6b5oF+RnIra8iqBDFk12nZvQTxcDRBZhG8P/41CFN9zxEySSs9J4YqofrqTv&#13;
+JLm1SIZIPA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fb674e74-9ff2-4a61-9658-13217bf55663"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MxHOrXg8biVHLb61XLTCCT0G6VkATiChqzY0Z9P1viGHAma+lWH3ChHiFe51ILOE72o/qt2i3iEv&#13;
+ZmwvmC57Zw==</DigestValue></Reference></SignedInfo><SignatureValue>NZD9ehh8/hfmSRz5usk3UEZOLepknf+tJhNHCxIsBtuFnkcfAGwfJpxRvmMmYyy7CYKqX0G1CG+n&#13;
+DAc3t5cjFo4v354KnFceUcbfg0sP25XSy2lmSbakcgiATReMFZjr2dIJ2HIBNZRuYW0BjFz0mZHt&#13;
+xr4lhhyB8InGNIQ+pu2/x8FNIVO7DpS1nd0a39Y2luVl1KTEg2UPvklZc6UfPpgu/DIcKKyjCRb7&#13;
+QAMspGNEPO5EvcyKqejyrUOJ/xY+qJDG+YtD1YrBGW+MDXhSStRcRM7PSm/g5WHGZx/S2e4w54TG&#13;
+Wco1AHENXChcOU3rwcceKqFJsQIixvnOWWpieg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fb674e74-9ff2-4a61-9658-13217bf55663" Target="#_eaf692fe-11cb-4506-ae7a-6e86d082e88b"><Timestamp>2020-10-03 09:50:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

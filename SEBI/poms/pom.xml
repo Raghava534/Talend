@@ -11,6 +11,40 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
+    <module>jobs/process/SEBI/DataCreation/createaggtables_0.1</module>
+    <module>jobs/process/Anon/anonpatternunmask_0.1</module>
+    <module>jobs/process/SEBI/Agg/loadfactmktstat_0.1</module>
+    <module>jobs/process/SEBI/Dims/d_tmmaster_0.1</module>
+    <module>jobs/process/Anon/anon_randommask_0.1</module>
+    <module>jobs/process/Misc/readclientxml_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createdimensions_0.1</module>
+    <module>jobs/process/SEBI/Facts/f_facttrades_0.1</module>
+    <module>jobs/process/Anon/anon_patternmask_0.1</module>
+    <module>jobs/joblets/infotowhload_0.1</module>
+    <module>jobs/process/Anon/anon_shuffle_0.1</module>
+    <module>jobs/process/SEBI/Dims/read_last_tables_0.1</module>
+    <module>jobs/process/Anon/anon_encrypt_0.1</module>
+    <module>jobs/process/SEBI/Dims/d_clientmaster_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/generatetm_master_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/generatesecuritymaster_0.1</module>
+    <module>jobs/joblets/load_stgpartition_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createtmids_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createclientsxml_0.1</module>
+    <module>jobs/joblets/audit_loger_0.1</module>
+    <module>jobs/process/SEBI/Dims/d_tradermaster_0.1</module>
+    <module>jobs/process/SEBI/Agg/loadaggsecday_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/parsexmlnewsdata_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createfact_trades_hdfs_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/pushfact_tradestohdfs_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createfact_trades_data_simple_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createtablefact_trades_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/createfact_trades_0.1</module>
+    <module>jobs/process/Misc/jhj_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/generateclient_master_0.1</module>
+    <module>jobs/process/SEBI/Agg/loadaggclntsecday_0.1</module>
+    <module>jobs/process/SEBI/Dims/d_securitymaster_0.1</module>
+    <module>jobs/process/SEBI/DataCreation/generatetrader_master_0.1</module>
+    <module>jobs/process_storm/jh_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
