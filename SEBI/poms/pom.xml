@@ -45,6 +45,7 @@
     <module>jobs/process/SEBI/Dims/d_securitymaster_0.1</module>
     <module>jobs/process/SEBI/DataCreation/generatetrader_master_0.1</module>
     <module>jobs/process_storm/jh_0.1</module>
+    <module>jobs/process/Misc/pushfacttrades20200128_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
