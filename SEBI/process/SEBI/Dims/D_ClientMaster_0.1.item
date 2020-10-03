@@ -4,7 +4,7 @@
     <contextParameter comment="" name="SEBI_Hive_hiveAdditionalJDBCParameters" prompt="SEBI_Hive_hiveAdditionalJDBCParameters?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value=""/>
     <contextParameter comment="" name="SEBI_Hive_HiveMetastorePort" prompt="SEBI_Hive_HiveMetastorePort?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="9083"/>
     <contextParameter comment="" name="SEBI_Hive_Login" prompt="SEBI_Hive_Login?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="sebi"/>
-    <contextParameter comment="" name="SEBI_Hive_Password" prompt="SEBI_Hive_Password?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_Password" value="enc:system.encryption.key.v1:jTeaxiKqPPHYSzj/DdBRM2POaGf413qG6tMkziHv9OFj992Jfg=="/>
+    <contextParameter comment="" name="SEBI_Hive_Password" prompt="SEBI_Hive_Password?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_Password" value="enc:system.encryption.key.v1:BpewascTIQipVSeUzT1OuM/o5K8pJlxYDh4q/hgT3LdLIqhKuQ=="/>
     <contextParameter comment="" name="SEBI_Hive_Port" prompt="SEBI_Hive_Port?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="10000"/>
     <contextParameter comment="" name="SEBI_Hive_Server" prompt="SEBI_Hive_Server?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="192.168.1.120"/>
     <contextParameter comment="" name="dataPath" prompt="dataPath?" promptNeeded="false" type="id_String" value="/user/sebi/hive/client_master_stg"/>
@@ -13,7 +13,7 @@
     <contextParameter comment="" name="SEBIMySQL_AdditionalParams" prompt="SEBIMySQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="serverTimezone=UTC"/>
     <contextParameter comment="" name="SEBIMySQL_Database" prompt="SEBIMySQL_Database?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="sebi"/>
     <contextParameter comment="" name="SEBIMySQL_Login" prompt="SEBIMySQL_Login?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="dif"/>
-    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_Password" value="enc:system.encryption.key.v1:b//3OYhWIAq714pjyYtuslHwxo96x6GUjRfIdSL2Jo9q9/AnZQ=="/>
+    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_Password" value="enc:system.encryption.key.v1:sPVPVrJ5dcg0KQlJZ3kvhk62lxF9ivQ3U04dPo/pojigOBeRDg=="/>
     <contextParameter comment="" name="SEBIMySQL_Port" prompt="SEBIMySQL_Port?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="3306"/>
     <contextParameter comment="" name="SEBIMySQL_Server" prompt="SEBIMySQL_Server?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="192.168.1.122"/>
     <contextParameter comment="" name="table_tgt" prompt="table_tgt?" promptNeeded="false" type="id_String" value="client_master"/>
@@ -23,7 +23,7 @@
     <contextParameter comment="" name="SEBI_Hive_hiveAdditionalJDBCParameters" prompt="SEBI_Hive_hiveAdditionalJDBCParameters?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value=""/>
     <contextParameter comment="" name="SEBI_Hive_HiveMetastorePort" prompt="SEBI_Hive_HiveMetastorePort?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="9083"/>
     <contextParameter comment="" name="SEBI_Hive_Login" prompt="SEBI_Hive_Login?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="sebi"/>
-    <contextParameter comment="" name="SEBI_Hive_Password" prompt="SEBI_Hive_Password?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_Password" value="enc:system.encryption.key.v1:QdJfS6OK2Sw25EHxblPO70XCSv7M84KrFqxieYmS0LE3IbUMrQ=="/>
+    <contextParameter comment="" name="SEBI_Hive_Password" prompt="SEBI_Hive_Password?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_Password" value="enc:system.encryption.key.v1:Y/GnGLHZr2P5eyrV01m7HcWIlBeFTEZ/JsFRH++9GfnNxvBEcg=="/>
     <contextParameter comment="" name="SEBI_Hive_Port" prompt="SEBI_Hive_Port?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="10000"/>
     <contextParameter comment="" name="SEBI_Hive_Server" prompt="SEBI_Hive_Server?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="192.168.1.120"/>
     <contextParameter comment="" name="dataPath" prompt="dataPath?" promptNeeded="false" type="id_String" value="/user/sebi/hive/client_master_stg"/>
@@ -32,7 +32,7 @@
     <contextParameter comment="" name="SEBIMySQL_AdditionalParams" prompt="SEBIMySQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="serverTimezone=UTC"/>
     <contextParameter comment="" name="SEBIMySQL_Database" prompt="SEBIMySQL_Database?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="sebi"/>
     <contextParameter comment="" name="SEBIMySQL_Login" prompt="SEBIMySQL_Login?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="dif"/>
-    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_Password" value="enc:system.encryption.key.v1:f4vqm6rM/pg5p0oFCCtpvTHTj2u66I1/TSWxqiZ3qZf3MjnmbQ=="/>
+    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_Password" value="enc:system.encryption.key.v1:Lm/PxUtDsAO8+ihR0wiWX9HL23EcSlEls5cFr+YU9A4fKXhHAw=="/>
     <contextParameter comment="" name="SEBIMySQL_Port" prompt="SEBIMySQL_Port?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="3306"/>
     <contextParameter comment="" name="SEBIMySQL_Server" prompt="SEBIMySQL_Server?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="192.168.1.122"/>
     <contextParameter comment="" name="table_tgt" prompt="table_tgt?" promptNeeded="false" type="id_String" value="client_master"/>
@@ -42,7 +42,7 @@
     <contextParameter comment="" name="SEBI_Hive_hiveAdditionalJDBCParameters" prompt="SEBI_Hive_hiveAdditionalJDBCParameters?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value=""/>
     <contextParameter comment="" name="SEBI_Hive_HiveMetastorePort" prompt="SEBI_Hive_HiveMetastorePort?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="9083"/>
     <contextParameter comment="" name="SEBI_Hive_Login" prompt="SEBI_Hive_Login?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="sebi"/>
-    <contextParameter comment="" name="SEBI_Hive_Password" prompt="SEBI_Hive_Password?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_Password" value="enc:system.encryption.key.v1:hMr+nQQdbfK37yMtkUnkOWKF53dxE+Ob0qSNE69YTLSqhOFeZA=="/>
+    <contextParameter comment="" name="SEBI_Hive_Password" prompt="SEBI_Hive_Password?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_Password" value="enc:system.encryption.key.v1:4u5de5r94byPoqozVtfi4MLPOfbF480vOVaAJtce+6SpsXOsew=="/>
     <contextParameter comment="" name="SEBI_Hive_Port" prompt="SEBI_Hive_Port?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="10000"/>
     <contextParameter comment="" name="SEBI_Hive_Server" prompt="SEBI_Hive_Server?" promptNeeded="false" repositoryContextId="_dgceIPjSEeqvPZYWlhjDkg" type="id_String" value="192.168.1.120"/>
     <contextParameter comment="" name="dataPath" prompt="dataPath?" promptNeeded="false" type="id_String" value="/user/sebi/hive/client_master_stg"/>
@@ -51,7 +51,7 @@
     <contextParameter comment="" name="SEBIMySQL_AdditionalParams" prompt="SEBIMySQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="serverTimezone=UTC"/>
     <contextParameter comment="" name="SEBIMySQL_Database" prompt="SEBIMySQL_Database?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="sebi"/>
     <contextParameter comment="" name="SEBIMySQL_Login" prompt="SEBIMySQL_Login?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="dif"/>
-    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_Password" value="enc:system.encryption.key.v1:DM/45CC4E/tRTVZ0NDMeZY5+/t9fJWsbSKW5pKlxg+QW6nROuw=="/>
+    <contextParameter comment="" name="SEBIMySQL_Password" prompt="SEBIMySQL_Password?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_Password" value="enc:system.encryption.key.v1:3Qoc63kSlaRRgZUmKJcJYaFf5KYB0OcG+C3whaCiSMMVlLQvRw=="/>
     <contextParameter comment="" name="SEBIMySQL_Port" prompt="SEBIMySQL_Port?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="3306"/>
     <contextParameter comment="" name="SEBIMySQL_Server" prompt="SEBIMySQL_Server?" promptNeeded="false" repositoryContextId="_HAOGEAPhEeuj357OrNJiiA" type="id_String" value="192.168.1.122"/>
     <contextParameter comment="" name="table_tgt" prompt="table_tgt?" promptNeeded="false" type="id_String" value="client_master"/>
@@ -98,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:vy+l2ZnYlaFEyP8UujW5hPlaPzC4nY8XHawyeo7g"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ReB/b7jPDH/k9OC3VrwnQfmTRt0lbi3FnnOBJ1f+"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -133,7 +133,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:fS24B0BUuUyE5C8MBvHmU3k3PsiyeHPYitqnmKVJ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:oPSet3/Xr07Gap9yfykbvStKqhFUfUpLAyfFmWiD"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -181,7 +181,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.SEBI_Hive_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.SEBI_Hive_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.SEBI_Hive_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vWIRQ4avhgmCGw4aF6VEz+L7niebZbAOcceBdhS6Z0/K/Bt5rg+rv7YgyS+vT8yjinOubrxY"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QbDfuChUpzSdtY+xKMv/aLE3axKDdJTqs4Z289vU6w53T9+nK+QHO29jNfHFztKLUIDjmkip"/>
     <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="context.SEBI_Hive_hiveAdditionalJDBCParameters"/>
     <elementParameter field="CHECK" name="CONFIGURATIONS_FROM_CLASSPATH" value="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
@@ -194,18 +194,18 @@
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:m3sOL056uGZGe8ToDWOlCwvqFS3gasH41uqly0SP"/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:TFjWgBgwAZxniYHgOW+a7HKXe7YstGMwGy0o6hQk"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:GL4r0qBRzwWfTP51HZyenXLWNrPxro+9wjK7ZXjT"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:jpAV0nA2JWofE4v6V7mohwEaHkzc6HGezGJ7oL73"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:qLB+Lho2OYbwFNtX6YvM8G88GGeMwfZDhhq297HF5xExnCLHYtk="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:Am5667XlcoCxEjpV9pNUXJDst6Kaze6C3Dp3xRRXjU9ch4S298Q="/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="context.SEBICloudera_ResourceManager"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" value="false"/>
@@ -224,11 +224,11 @@
     <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:LCkX1X/1xOKlzeS/u8160aDCZifVRCSGzapy6hHu"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:dYtqbb/O40ahefu5UlMYK7/9fUPgDSwxYVWkFwak"/>
     <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:NN8YCTshV7PyF4+VitUXOA/PwDmbEGEw2SxsqInh"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:AIAAQoSR+XkVv4m1iEgDzsxRMOhgTRiWeziJEGLX"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
@@ -249,7 +249,7 @@
     <elementParameter field="CHECK" name="DEFINE_REGISTER_JAR" show="false" value="false"/>
     <elementParameter field="LABEL" name="REGISTER_JAR_NOTE" show="false" value="When filling in the Jar path information below, make sure that the JAR files are available on the server."/>
     <elementParameter field="TABLE" name="REGISTER_JAR" show="false"/>
-    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:+iRNMbFXFazbVTpKtFo7P39JDzPzIT63JrJuNh/D"/>
+    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:dIWbMjO2xS7HJbzYQ5WZZaydDlqiAlIOCdcDkycM"/>
     <elementParameter field="CHECK" name="QUBOLE_CLUSTER" show="false" value="false"/>
     <elementParameter field="TEXT" name="QUBOLE_CLUSTER_LABEL" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="QUBOLE_ENDPOINT" show="false" value="false"/>
@@ -321,7 +321,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Hive"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ZN66FFPpV+PjbRrFTkkXqoSSnoOtk47lL6NxuIxM"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6aP+a+VRf5x0qjFYgjkTOtIphmpRk/Vrftip2myP"/>
     <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" show="false" value="false"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" show="false" value="&quot;hive/_HOST@EXAMPLE.COM&quot;"/>
@@ -333,18 +333,18 @@
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;jdbc:mysql://&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;com.mysql.jdbc.Driver&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;hive&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:B8eRDWKgM0S+dHNN9bYWMNJZrlJRng9c4Algc2PZDcWm5w=="/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:obQb+yeam7maGMVjQNe7jwYuKyM78VQ3XdTf0PVMf31PIA=="/>
     <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;hive&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hive.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:h5VOGXGijLIImt1o+qfgMYjqkb95WC+BrrlRHZ3M"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:XVJ0wmS+2MeGfwuuD3Knrw5F5rVH+/ArgOL9r17I"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:abKjToROt18xKq+ZqQEm8KRxJBOGxlskxkTM7dzKVnuRhF86kz0="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:oLVLh5Y0L10kTgSTUoS59A5pxEowui1VCXn5IuT3cQiHhMU1VGg="/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="true"/>
     <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="&quot;localhost:50300&quot;"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" show="false" value="true"/>
@@ -364,11 +364,11 @@
     <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:354tQvGFR3TfK0NUj0iU4ZiWIuUCnYDVwAh+km0s"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:dGTu2DD9ignjhAWPhjAuWQt8s2+rXyLp3E232QEQ"/>
     <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:MCr7ZEFY+RV4ZfeEHodKvi1CbhOf+ZL+liLCqrPB"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:eJOwKSaHIqYG1/lNpjqz6k3YL58wOVXrzJWMX+E1"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
@@ -376,7 +376,7 @@
     <elementParameter field="TEXT" name="GOOGLE_JARS_BUCKET" show="false" value="&quot;gs://my-bucket/talend/jars&quot;"/>
     <elementParameter field="CHECK" name="DEFINE_PATH_TO_GOOGLE_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="TEXT" name="PATH_TO_GOOGLE_CREDENTIALS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:9pwXINh/iOZ9qHM6KdI4vXhlSnO6E9H+XbLiDsnp"/>
+    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:JVJVhwc9xIw1vIsNRiPaQm/38GvtqkoKUY1h0uCo"/>
     <elementParameter field="CHECK" name="QUBOLE_CLUSTER" show="false" value="false"/>
     <elementParameter field="TEXT" name="QUBOLE_CLUSTER_LABEL" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="QUBOLE_ENDPOINT" show="false" value="false"/>
@@ -469,7 +469,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Hive"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FkrhiDBdqlLot9qsLKl83rb453jdJ2nkppIHU6dy"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TDurgXwjH8IJUqS5DnsrYgMkgFNMaah0o24H3fdb"/>
     <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" show="false" value="false"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" show="false" value="&quot;hive/_HOST@EXAMPLE.COM&quot;"/>
@@ -481,18 +481,18 @@
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;jdbc:mysql://&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;com.mysql.jdbc.Driver&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;hive&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:12cWdbf4Z76pGaEaL8moxjmiIegti6iDT5HJCm2VILCG9Q=="/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:nL6WVgRcckX6ZBCG14Wh6JL/msmXIz4F+JkJk4SEB59tsQ=="/>
     <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
     <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;hive&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hive.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:tGU9k0b0GccUK8Nthgp5egKlFJ8IVVhvCGXgBx42"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:SdxDtuH0kepyx6TuehF4QXm6GqfR5RgUPUohhh3d"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:SebpWlMiyss0wsCDozUjmPs+4ZLRd7BVsw7IJDfcWKMvCbJvHoY="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:SUJ7dxh0p396ZAsxS2VrwxU9PQIZMgS086Gc1SbD1F8v5/NgMQ0="/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="true"/>
     <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="&quot;localhost:50300&quot;"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" show="false" value="true"/>
@@ -512,11 +512,11 @@
     <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:3dn9WHwY14MH3O56SC4P316Db87v6XWSEqexFt4L"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:qpKuZciJ+UM8jHUa0ktcVK67Zvvz2VZayglYTyzv"/>
     <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:RI7vSQU2STgJ1j3m+QJu+MDo+wPvVd4rEEQaGHVq"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:981Ld+ypQpLSl9/KYqD3Z5yWJaTVxh7NkQQH2Dcj"/>
     <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
     <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
@@ -524,7 +524,7 @@
     <elementParameter field="TEXT" name="GOOGLE_JARS_BUCKET" show="false" value="&quot;gs://my-bucket/talend/jars&quot;"/>
     <elementParameter field="CHECK" name="DEFINE_PATH_TO_GOOGLE_CREDENTIALS" show="false" value="false"/>
     <elementParameter field="TEXT" name="PATH_TO_GOOGLE_CREDENTIALS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:LChLYEQ5KvIRUkP3XweRexhxsn6dPgFTguQC4BEY"/>
+    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:2f0LMlbQcbV9hGjMOxEAXHT5VUAYCtuMFgy30s6P"/>
     <elementParameter field="CHECK" name="QUBOLE_CLUSTER" show="false" value="false"/>
     <elementParameter field="TEXT" name="QUBOLE_CLUSTER_LABEL" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="QUBOLE_ENDPOINT" show="false" value="false"/>
@@ -608,7 +608,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.SEBIMySQL_Database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.SEBIMySQL_AdditionalParams"/>
     <elementParameter field="TEXT" name="USER" value="context.SEBIMySQL_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Jy4aWu2Dug7ke00KaeLa5Uv0qOZxmsgSY6yyqeSJ8+CalnjqOwEVArL25aYOV+BeJGvYFnuM"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Lg4aeIEQlm1I2qiwaydmDIJu4oZapnDXxRvkzkv63hCJMd37O3Rp69v/tUIgJd9kig//H1+q"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
@@ -650,7 +650,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.SEBIMySQL_Database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.SEBIMySQL_AdditionalParams"/>
     <elementParameter field="TEXT" name="USER" value="context.SEBIMySQL_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:J1yAIuIgINPE9ZZEurtLfCcDbeT8QIAetkulYKhxYsoa5HJDHWddpUUm2f5eTzE+a290tQ8i"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8vYFBrCC1ARuUOVB5GvKTGjgHxV9XAuql+ev1kNMpBdv4WS941rUZu2eBzkynb93nXzeJ2PV"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
@@ -832,13 +832,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="106;213;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_80ef7c20-d501-4c54-9839-11a40fc70146"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fqdFAbpLRZhiv5JdnWU9w/kMWRqKhgSbEjarmQh1JUBmqTrgZYfkOmLEfX8Cg85mYlNMdkfwNXvm&#13;
-ISV3foxD9w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ca96e6f3-dc5d-4f55-a67c-fac6396f579e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Xed/+1TJxDi/cKPsL8UYUzFzC7ZL4fZbFX8UDhOk3rsnHL808xCplmvRuuK51/Vzare+dLlDs8WQ&#13;
-gC66ABZm9A==</DigestValue></Reference></SignedInfo><SignatureValue>bm3T+3U8rYYaIN5qAFrzxnSDrljpAQZeIGf1lb1THWQrIwa4gY8LQAREVSmQOZ5BtqtxSfcIhjnO&#13;
-0LqO5Gsd/SbwJeMkBqlq1jN3JQ7cZEx85Jd+F4CNCCqCcCc/vIVnM1psOzcpvUm3wnWDpNfGGwpd&#13;
-8rqI+yPpOoVEoqYd+s92bgOGm/F1ashaSi8OdYjzhN+kGaUiZFU2Wk1Dt1g8F1LaFE5NlZbTKrdl&#13;
-8UIy73oy1xYiBmg4DYMdsSGoxUaWNkiH1w4w003hiYNWtIYM+HsV5gBieLvkSaH9JMA/5UtPk8MY&#13;
-6bouW98dItp5KnbDMFD318IVCk+hqZTKLkOLSw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d6bc3591-be0b-44fc-ae21-04a4870e20b7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CQmwBXSRXkVX/Zl9puuAghzvqU9id0XpRXjaQ6lgVNHViVqZizObTZMhtDetaNwcoApAtdb+P/Dt&#13;
+YwbhIzvOfA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8fe1a48a-33c7-4bd4-be19-cd2ae1de81b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NssJEGyy6ERe6AGf4Aj+jRVv55+B+VNEZMqU6CRtxPz1uQ1qDY8iKcwEK2XRI+2cPHq/+Mri/azK&#13;
+myAnJ/9fdg==</DigestValue></Reference></SignedInfo><SignatureValue>V++BqF0KxRtBpEjfC129qsT2+Eru5rlCV4aDBb81wi6rZMsGshG/lHdx56UW535h1hbU+vCoxVoG&#13;
+RpSquFzle8woP0wl1c67jEcUY0lLZ/AlGw+4aLSL/RN5GHH8kPP2qN3skvWfa9fcOLhO1KQPmyG3&#13;
+P0I1YLAn/mX/MutLGdEppcydLFK48DP5iia9Aek82oVttE7K4HXz8as1RJhI/qiJGs0SV9RS+25T&#13;
+stwTBzz9Jhg4uoR1P/xj/CeIBrKgA2fXt4B0V9U8lMhpF9WFcvT5uOk8K6m4SQM3D+GGameDW4cJ&#13;
+/mYILtmYPQD8WZyRDxmPs5VXV+4+gJ1eULkljQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -860,4 +860,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ca96e6f3-dc5d-4f55-a67c-fac6396f579e" Target="#_80ef7c20-d501-4c54-9839-11a40fc70146"><Timestamp>2020-10-03 09:55:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8fe1a48a-33c7-4bd4-be19-cd2ae1de81b6" Target="#_d6bc3591-be0b-44fc-ae21-04a4870e20b7"><Timestamp>2020-10-03 09:58:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
