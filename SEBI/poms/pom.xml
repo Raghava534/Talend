@@ -49,6 +49,7 @@
     <module>jobs/process/SEBI/DataCreation/moveftfilestohdfs_0.1</module>
     <module>jobs/process/Misc/loadclientmasterdatafromdeli_0.1</module>
     <module>../../SEBISIGMA/poms</module>
+    <module>jobs/process/SEBI/Dims/loadclientmasterlivedemo_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
