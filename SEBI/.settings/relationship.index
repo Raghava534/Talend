@@ -225,6 +225,97 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_7VIN4An0Eeut2eHtkOvZag",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_DGXrIAIqEeut2IPO2IVoLA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Ho1RoPjSEeqvPZYWlhjDkg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_SB9BkPjSEeqvPZYWlhjDkg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ay6D8ACgEeu7Ve8a5JWw0w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_dgceIPjSEeqvPZYWlhjDkg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "SEBI:_UhezUP2ZEeq7Ve8a5JWw0w",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_ay6D8ACgEeu7Ve8a5JWw0w",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_7TFFwPc4EeqrWMmuF1GnkA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_KJyisPc2EeqrWMmuF1GnkA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZP_NoAIqEeut2IPO2IVoLA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ZP_NoAIqEeut2IPO2IVoLA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_Adtt0PM3Eeq6bZawF1a_ug",
     "version" : "0.1",
     "type" : "job"
