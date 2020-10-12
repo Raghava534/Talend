@@ -53,6 +53,7 @@
     <module>../../SEBISIGMA/poms</module>
     <module>jobs/process/SEBI/Dims/movepdffilestohdfs_0.1</module>
     <module>jobs/process/SEBI/Dims/createclientdatafromhtml_0.1</module>
+    <module>jobs/process/SEBI/Dims/html2csv2hive_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
