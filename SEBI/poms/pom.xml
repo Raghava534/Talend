@@ -50,6 +50,7 @@
     <module>jobs/process/Misc/loadclientmasterdatafromdeli_0.1</module>
     <module>jobs/process/Misc/loadclientdimensionfromdeli_0.1</module>
     <module>jobs/process/Misc/loadclientdimensionfromxml_0.1</module>
+    <module>jobs/process/Misc/extractpdfdata_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
