@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:RYwYitZeuze5Wvvh4OYJxyAhkSEkouGTnvl/5q3/"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:VUhiEyJNBPKJpoRN6Cp9oy7K2FsEIgIHEupi7WDv"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vwgaMqae59RVvzZulmszNVm/OyjFhu+XIbKe3e92"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6qTSeuF7B6alJ0LPgDV4xQlMrN+BKT/U+KEFXfPH"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -219,7 +219,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.line.startsWith(&quot;ClientCode&quot;)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="&#10;&#10;input_row.line.startsWith(&quot;ClientCode&quot;)&#10;&#9;&#9;&#9;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFilterRow_5">
       <column comment="" key="false" length="-1" name="rowNum" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
@@ -428,6 +428,184 @@
       <column comment="" key="false" length="10" name="DC_RECORD_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHDFSPut_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_7TFFwPc4EeqrWMmuF1GnkA"/>
+    <elementParameter field="HADOOP_LIBRARIES" name="HDFS" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH6_1_1"/>
+    <elementParameter field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
+    <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SCHEME" value="HDFS"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MODE" show="false" value="USERNAME"/>
+    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="context.SEBICloudera_NameNodeUri"/>
+    <elementParameter field="TEXT" name="ADLS_FS_DEFAULT_NAME" show="false" value="&quot;adl://account.azuredatalakestore.net&quot;"/>
+    <elementParameter field="TEXT" name="ADLS_CLIENT_ID" show="false" value="&quot;XXXX&quot;"/>
+    <elementParameter field="PASSWORD" name="ADLS_AUTH_TOKEN_ENDPOINT" show="false" value="enc:system.encryption.key.v1:r8HrBWfCZu+06wcuMQLWizSPYYuiZNzjvv1jkc2/Ys8IN+YGj6iroiea3vtF6sEFuMZ83SA26dhC0OyrMjjqCjSBKjPSYJQn58XvbiQNKC8="/>
+    <elementParameter field="PASSWORD" name="ADLS_CLIENT_KEY" show="false" value="enc:system.encryption.key.v1:JcQqYqWFJAssL7dWgaDZ22zfpBJPE4Hd+BvhXB662ZeD6w=="/>
+    <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>
+    <elementParameter field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" show="false" value="&quot;hdfs/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
+    <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;hdfs&quot;"/>
+    <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hdfs.headless.keytab&quot;"/>
+    <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.SEBIHDFS_HdfsUser"/>
+    <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:nsLQ8AlUdvD4taCNBf7+dFnNM99l+97OVz2d0e0t"/>
+    <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
+    <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="&quot;C:/Users/Harischandra V/Documents/SEBI&quot;"/>
+    <elementParameter field="DIRECTORY_HADOOP" name="REMOTEDIR" value="&quot;/user/sebi/Talend/FromPDF&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="OVERWRITE" value="false"/>
+    <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;ClientSampleDataFromPDF.txt&quot;"/>
+      <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" show="false" value="false"/>
+    <elementParameter field="TEXT" name="MAPR_HOME_DIR" show="false" value="&quot;/opt/mapr&quot;"/>
+    <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HADOOP_LOGIN" show="false" value="&quot;kerberos&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tHDFSPut_1"/>
+  </node>
+  <node componentName="tHiveRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHiveRow_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_KJyisPc2EeqrWMmuF1GnkA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
+    <elementParameter field="CLOSED_LIST" name="HIVE_VERSION" value="Cloudera_CDH6_1_1"/>
+    <elementParameter field="HADOOP_DISTRIBUTION" name="HIVE" value=""/>
+    <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_YARN" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CROSS_PLATFORM_SUBMISSION" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_MODE" value="STANDALONE"/>
+    <elementParameter field="CLOSED_LIST" name="HIVE_SERVER" value="HIVE2"/>
+    <elementParameter field="TEXT" name="HOST" value="context.SEBI_Hive_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.SEBI_Hive_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.SEBI_Hive_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="HIVE"/>
+    <elementParameter field="TEXT" name="USER" value="context.SEBI_Hive_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7hR33b4QkXwweIzA68mVdwueSIa2wK0xfVk4kRnGcTqhhLWc80AfKXI4huI4FOFLHKmZhWHt"/>
+    <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="context.SEBI_Hive_hiveAdditionalJDBCParameters"/>
+    <elementParameter field="CHECK" name="USE_KRB" value="false"/>
+    <elementParameter field="TEXT" name="HIVE_PRINCIPAL" show="false" value="&quot;hive/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="HIVESERVER2_LOCAL_PRINCIPAL" show="false" value="&quot;hiveServer2User@EXAMPLE.COM&quot;"/>
+    <elementParameter field="FILE" name="HIVESERVER2_LOCAL_KEYTAB" show="false" value="&quot;/tmp/hiveServer2User.keytab&quot;"/>
+    <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" show="false" value="&quot;hdfs/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="JOBTRACKER_PRINCIPAL" show="false" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" show="false" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:GJBW69fv7Vnly57hcdBjGl1NMmphNP/SQcAnlWGC"/>
+    <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
+    <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_MAPRTICKET" show="false" value="false"/>
+    <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="enc:system.encryption.key.v1:9yFdVmblYpJOeMelHA+sRWZ34+InyLQ6mFxRv0u9"/>
+    <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
+    <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:yjwTI0vY89nvjc0NTj3jmU/x4scfp5sTLLbszAmihff/lptjSXU="/>
+    <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="context.SEBICloudera_ResourceManager"/>
+    <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" value="false"/>
+    <elementParameter field="TEXT" name="RESOURCE_MANAGER" show="false" value="context.SEBICloudera_ResourceManager"/>
+    <elementParameter field="CHECK" name="SET_FS_DEFAULT_NAME" value="false"/>
+    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" show="false" value="context.SEBICloudera_NameNodeUri"/>
+    <elementParameter field="CHECK" name="SET_SCHEDULER_ADDRESS" value="false"/>
+    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" show="false" value="context.SEBICloudera_ResourceManagerScheduler"/>
+    <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="false"/>
+    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" show="false" value="context.SEBICloudera_JobHistory"/>
+    <elementParameter field="CHECK" name="SET_HADOOP_USER" value="false"/>
+    <elementParameter field="TEXT" name="HADOOP_USER" show="false" value="&quot;hadoop&quot;"/>
+    <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="EXECUTION_ENGINE" show="false" value="mr"/>
+    <elementParameter field="TEXT" name="WEBHCAT_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="WEBHCAT_PORT" show="false" value="&quot;443&quot;"/>
+    <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="enc:system.encryption.key.v1:aT6DzutawRwhh609jPJANRjU6QbzOfq62TxC7WQn"/>
+    <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="enc:system.encryption.key.v1:4XxKqOrzy3fSFVpAU8tefdB/JJPBBL2Ofx5xdxKk"/>
+    <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
+    <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
+    <elementParameter field="TEXT" name="GOOGLE_REGION" show="false" value="&quot;global&quot;"/>
+    <elementParameter field="TEXT" name="GOOGLE_JARS_BUCKET" show="false" value="&quot;gs://my-bucket/talend/jars&quot;"/>
+    <elementParameter field="CHECK" name="DEFINE_PATH_TO_GOOGLE_CREDENTIALS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="PATH_TO_GOOGLE_CREDENTIALS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="QUBOLE_API_TOKEN" show="false" value="enc:system.encryption.key.v1:ceiAce06psBdE1vnM91OOzzZ5HPNBejttDMBQQ7g"/>
+    <elementParameter field="CHECK" name="QUBOLE_CLUSTER" show="false" value="false"/>
+    <elementParameter field="TEXT" name="QUBOLE_CLUSTER_LABEL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="QUBOLE_ENDPOINT" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="QUBOLE_ENDPOINT_URL" show="false" value="&quot;https://api.qubole.com/api&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;client_master_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="LABEL" name="PARQUET_NOTE" show="false" value="Parquet is only supported if the distribution uses embedded Hive version 0.10 or later."/>
+    <elementParameter field="CHECK" name="USE_PARQUET" value="false"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;ALTER TABLE sebi.client_master_stg &#13;&#10;ADD PARTITION (load_date='/user/sebi/Talend/FromPDF' )&#13;&#10;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="STORE_BY_HBASE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" show="false" value="&quot;2181&quot;"/>
+    <elementParameter field="CHECK" name="SET_ZNODE_PARENT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ZNODE_PARENT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HBASE_MASTER_PRINCIPAL" show="false" value="&quot;hbase/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="HBASE_REGIONSERVER_PRINCIPAL" show="false" value="&quot;hbase/_HOST@EXAMPLE.COM&quot;"/>
+    <elementParameter field="CHECK" name="DEFINE_REGISTER_JAR" show="false" value="false"/>
+    <elementParameter field="LABEL" name="REGISTER_JAR_NOTE" show="false" value="When filling in the Jar path information below, make sure that the JAR files are available on the server."/>
+    <elementParameter field="TABLE" name="REGISTER_JAR" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="TEZ_LIB" show="false" value="INSTALL"/>
+    <elementParameter field="DIRECTORY_HADOOP" name="TEZ_LIB_FOLDER" show="false" value="&quot;/tmp/{USERNAME}/talend_tez_libs/{custom|HIVE_VERSION}&quot;"/>
+    <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
+    <elementParameter field="TEXT" name="TEZ_JARS_NAME" show="false" value="avro-1.5.4.jar,commons-cli-1.2.jar,commons-collections4-4.0.jar,guava-11.0.2.jar,guice-3.0.jar,hadoop-mapreduce-client-common-2.4.0.2.1.1.0-385.jar,hadoop-mapreduce-client-core-2.4.0.2.1.1.0-385.jar,hadoop-mapreduce-client-shuffle-2.4.0.2.1.1.0-385.jar,jettison-1.3.4.jar,protobuf-java-2.5.0.jar,snappy-java-1.0.4.1.jar,tez-api-0.4.0.2.1.1.0-385.jar,tez-common-0.4.0.2.1.1.0-385.jar,tez-dag-0.4.0.2.1.1.0-385.jar,tez-mapreduce-0.4.0.2.1.1.0-385.jar,tez-mapreduce-examples-0.4.0.2.1.1.0-385.jar,tez-runtime-internals-0.4.0.2.1.1.0-385.jar,tez-runtime-library-0.4.0.2.1.1.0-385.jar,tez-tests-0.4.0.2.1.1.0-385.jar,commons-lang3-3.0.jar"/>
+    <elementParameter field="BOTH_HADOOP" name="TEZ_LIB_PATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="TEZ_LIB_NAME" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="If you are on Windows, add a '/' in front of the path you type in."/>
+    <elementParameter field="CHECK" name="SET_TEMP_PATH" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_PATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
+    <elementParameter field="TEXT" name="MAPRED_JOB_MAP_MEMORY_MB" show="false" value="&quot;1000&quot;"/>
+    <elementParameter field="TEXT" name="MAPRED_JOB_REDUCE_MEMORY_MB" show="false" value="&quot;1000&quot;"/>
+    <elementParameter field="CHECK" name="SET_MEMORY" value="false"/>
+    <elementParameter field="TEXT" name="MAPREDUCE_MAP_MEMORY_MB" show="false" value="&quot;1024&quot;"/>
+    <elementParameter field="TEXT" name="MAPREDUCE_REDUCE_MEMORY_MB" show="false" value="&quot;1024&quot;"/>
+    <elementParameter field="TEXT" name="YARN_APP_MAPREDUCE_AM_RESOURCE_MB" show="false" value="&quot;1024&quot;"/>
+    <elementParameter field="TEXT" name="CLASSPATH_SEPARATOR" value="&quot;:&quot;"/>
+    <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" show="false" value="false"/>
+    <elementParameter field="TEXT" name="MAPR_HOME_DIR" show="false" value="&quot;/opt/mapr&quot;"/>
+    <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HADOOP_LOGIN" show="false" value="&quot;kerberos&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tHiveRow_2"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tTikaExtractor_1" offsetLabelX="0" offsetLabelY="0" source="tTikaExtractor_1" target="tFixedFlowInput_2">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
@@ -464,9 +642,15 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Parsed"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tHDFSPut_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
   <connection connectorName="FLOW" label="Formatted" lineStyle="0" metaname="Formatted" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tFileOutputDelimited_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Formatted"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tHDFSPut_1" offsetLabelX="0" offsetLabelY="0" source="tHDFSPut_1" target="tHiveRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
   <note opaque="true" posX="640" posY="64" sizeHeight="97" sizeWidth="321" text="tTikaExtractor Component&#13;&#10;APACHE Tika Library">
     <elementParameter field="TEXT" name="FONT_SIZE" value="14"/>
@@ -492,13 +676,27 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="106;213;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8fa3c38e-7445-4010-a31e-ce343fb4bc66"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oeZ6KI8xKAPI9rfULDMSgROZItjMAvWaKCgNtUgVh7fnwyWo/xP8Podd70/G/TSP3pekfavwoXgE&#13;
-vXu+eM+8NA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_976c96e3-55b0-4b17-a8bc-ac12cc0d99ac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rw2pfe1Be1i5Jx+XtTSw8BICPfOrlkUlCKiazNtTMm1iGuOCdxgbjtMswsIaezvRPGXtNJG89INw&#13;
-L2PAGtGN1w==</DigestValue></Reference></SignedInfo><SignatureValue>KNgDK9W6finKDPOy/Ia/NxR7LouF9zBD2IBEXuxi+OwiZZD9T8WLsrhGJax8Ey/7VwXaqTwpCh85&#13;
-Ydp0Jg9DImdD3Tpv/snlD4Puq/1ffAdhxNQsDngNrHAg/6fDiAH9GQ9drexAO19Ku6JMG0z4u5wB&#13;
-tCL64iedm5MtydjC7Jg3P0dOeWBkQTuxLPZ3B9we+zLrQLLzTG4gJq8F6iBWoQGOGF7FXvF1ZBl8&#13;
-dGjpE5Y2oE1TpFXejxtvG8jtQqQJ8bhe4c9KWfYLnldzaDilzaIKeNU64qSQt6kDlgE0Wt39Rc8S&#13;
-cXGM0jHFMLGdMp1ZWfU2FyPwoMQSSZOTOTOJeA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHDFSPut_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="TO HDFS"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="106;213;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHiveRow_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="TO HIVE"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="106;213;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_368972ee-d57a-4657-b01d-d18722e73ff3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lAmXJRC9Szp10geNEA5aWxRJYGSVED/MWLffkZcT8cUYfXoulPyRKYWWY/Pkv7yBNCrhj3pnPZO1&#13;
+EwGkWqPe6Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0adb4d50-d49b-4524-be1f-092085fd18e6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9pjeW6ZmFHmNqyVHJ1u+LSuMtwlDZD2FA8od6r/jO11bPAHH8ZSp46esM1btxjVJ5SDIn2R6OiFa&#13;
+NS+UY/ck/Q==</DigestValue></Reference></SignedInfo><SignatureValue>DChFJqSmQ0fyGuqPJrO3+vrPsXWTakRmMbhujSDGMxT48J2VJlaXQORaQxfwyWrG9ysfeiBFgYbR&#13;
+X0OqxQ3K3PvR2oVAWbjrSkqh28kBXGKkmjNXgC1TSFsteHmg3jYtI2FssX2TQcH+ejoKQOFhh5wf&#13;
+X2XZuSbRSuoqYcANSAZ7kAWZQ0QrFDde8kvuuqUKLkscJ3lapIQsk/9Piz6c7bbbMFlOapOm+nuX&#13;
+ijUsMJFHz8P+M7FR50DX5glgyLbjbnVqBaKu+rhdSeiy2BNQDboOQ+zngoTJMrVKRgfkKiU92Wht&#13;
+xDxoDD1lyqFqk++UJDO36k8ekBZgv2pZ0OaiNQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -520,4 +718,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_976c96e3-55b0-4b17-a8bc-ac12cc0d99ac" Target="#_8fa3c38e-7445-4010-a31e-ce343fb4bc66"><Timestamp>2020-10-13 09:40:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0adb4d50-d49b-4524-be1f-092085fd18e6" Target="#_368972ee-d57a-4657-b01d-d18722e73ff3"><Timestamp>2020-10-13 10:53:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
